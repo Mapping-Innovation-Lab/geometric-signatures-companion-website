@@ -1,0 +1,201 @@
+{
+  "description": "Cross-case ranking recomputed under the co-dominance p-value and the joint 2D magnitude ||D||_2, with look-elsewhere correction.",
+  "p_floor": 0.0002,
+  "cases": {
+    "special_relativity": {
+      "label": "Special relativity",
+      "nulls": {
+        "random_removal": {
+          "label": "Random removal",
+          "n_draws": 5000,
+          "observed_D_I": 7.611536823493907,
+          "observed_D_P": -0.3557613576970711,
+          "null_mean_D_I": -0.07226772315366134,
+          "null_mean_D_P": -0.08501798575204461,
+          "p_co": 0.0,
+          "p_co_is_floor": true,
+          "l2_observed": 7.6198463868397095
+        },
+        "scrambled_assignment": {
+          "label": "Scrambled assignment",
+          "n_draws": 5000,
+          "observed_D_I": 7.611536823493907,
+          "observed_D_P": -0.3557613576970711,
+          "null_mean_D_I": -0.058589271892877694,
+          "null_mean_D_P": -0.1934679997999546,
+          "p_co": 0.0,
+          "p_co_is_floor": true,
+          "l2_observed": 7.6198463868397095
+        }
+      },
+      "look_elsewhere": {
+        "observed_global_max_l2": 7.6198463868397095,
+        "global_p": 0.0007998400319936012,
+        "z_score": 7.91255249766178,
+        "argmax_concept": "special_relativity",
+        "argmax_year": 1902,
+        "target_concept": "special_relativity",
+        "argmax_is_target": true,
+        "n_perm": 5000,
+        "null_mean": 2.2664867323385525,
+        "null_max": 7.88753206448518
+      }
+    },
+    "higgs": {
+      "label": "Higgs mechanism",
+      "nulls": {
+        "random_removal": {
+          "label": "Random removal",
+          "n_draws": 5000,
+          "observed_D_I": -3.2530730762360744,
+          "observed_D_P": -14.56884937431579,
+          "null_mean_D_I": -0.18948144455208626,
+          "null_mean_D_P": -0.17967726326649233,
+          "p_co": 0.0,
+          "p_co_is_floor": true,
+          "l2_observed": 14.927620591736433
+        },
+        "scrambled_assignment": {
+          "label": "Scrambled assignment",
+          "n_draws": 5000,
+          "observed_D_I": -3.2530730762360744,
+          "observed_D_P": -14.56884937431579,
+          "null_mean_D_I": -2.0723873404049695,
+          "null_mean_D_P": 0.606785143994134,
+          "p_co": 0.0,
+          "p_co_is_floor": true,
+          "l2_observed": 14.927620591736433
+        }
+      },
+      "look_elsewhere": {
+        "observed_global_max_l2": 14.927620591736433,
+        "global_p": 0.020195960807838434,
+        "z_score": 2.6746041126909645,
+        "argmax_concept": "higgs_mechanism",
+        "argmax_year": 1959,
+        "target_concept": "higgs_mechanism",
+        "argmax_is_target": true,
+        "n_perm": 5000,
+        "null_mean": 7.666755082009165,
+        "null_max": 33.05535295688414
+      }
+    },
+    "godel": {
+      "label": "Godel incompleteness",
+      "nulls": {
+        "random_removal": {
+          "label": "Random removal",
+          "n_draws": 5000,
+          "observed_D_I": 0.4959255785702684,
+          "observed_D_P": 2.4955344782426976,
+          "null_mean_D_I": -0.07484884823126907,
+          "null_mean_D_P": -0.41004396600209686,
+          "p_co": 0.0,
+          "p_co_is_floor": true,
+          "l2_observed": 2.544333805061417
+        },
+        "scrambled_assignment": {
+          "label": "Scrambled assignment",
+          "n_draws": 5000,
+          "observed_D_I": 0.4959255785702684,
+          "observed_D_P": 2.4955344782426976,
+          "null_mean_D_I": 0.041103562594427365,
+          "null_mean_D_P": -0.34498451191701124,
+          "p_co": 0.0004,
+          "p_co_is_floor": false,
+          "l2_observed": 2.544333805061417
+        }
+      },
+      "look_elsewhere": {
+        "observed_global_max_l2": 2.8476241794006807,
+        "global_p": 0.15076984603079385,
+        "z_score": 0.8691889772529079,
+        "argmax_concept": "type_theory",
+        "argmax_year": 1940,
+        "target_concept": "incompleteness",
+        "argmax_is_target": false,
+        "n_perm": 5000,
+        "null_mean": 2.33546126468608,
+        "null_max": 9.090869434411061
+      }
+    },
+    "deep_learning": {
+      "label": "Deep learning",
+      "nulls": {
+        "random_removal": {
+          "label": "Random removal",
+          "n_draws": 5000,
+          "observed_D_I": -1.545786135845599,
+          "observed_D_P": -3.1268117102101227,
+          "null_mean_D_I": -1.20558918087578,
+          "null_mean_D_P": -1.1540867877820533,
+          "p_co": 0.0232,
+          "p_co_is_floor": false,
+          "l2_observed": 3.4880375928134177
+        },
+        "scrambled_assignment": {
+          "label": "Scrambled assignment",
+          "n_draws": 5000,
+          "observed_D_I": -1.545786135845599,
+          "observed_D_P": -3.1268117102101227,
+          "null_mean_D_I": -1.7068815839039517,
+          "null_mean_D_P": 1.8650071876226066,
+          "p_co": 0.0,
+          "p_co_is_floor": true,
+          "l2_observed": 3.4880375928134177
+        }
+      },
+      "look_elsewhere": {
+        "observed_global_max_l2": 20.627173300084717,
+        "global_p": 0.08818236352729454,
+        "z_score": 1.2178820155919705,
+        "argmax_concept": "feature_engineering",
+        "argmax_year": 2008,
+        "target_concept": "deep_learning",
+        "argmax_is_target": false,
+        "n_perm": 5000,
+        "null_mean": 12.393603855755268,
+        "null_max": 150.97709265771653
+      }
+    },
+    "attention": {
+      "label": "Attention mechanism",
+      "nulls": {
+        "random_removal": {
+          "label": "Random removal",
+          "n_draws": 5000,
+          "observed_D_I": 1.6401378730172,
+          "observed_D_P": 0.8986035662761397,
+          "null_mean_D_I": -0.12261437960195612,
+          "null_mean_D_P": -0.12192991511981845,
+          "p_co": 0.0006,
+          "p_co_is_floor": false,
+          "l2_observed": 1.8701712787414904
+        },
+        "scrambled_assignment": {
+          "label": "Scrambled assignment",
+          "n_draws": 5000,
+          "observed_D_I": 1.6401378730172,
+          "observed_D_P": 0.8986035662761397,
+          "null_mean_D_I": -0.7328929040518997,
+          "null_mean_D_P": -0.2565547095678798,
+          "p_co": 0.0156,
+          "p_co_is_floor": false,
+          "l2_observed": 1.8701712787414904
+        }
+      },
+      "look_elsewhere": {
+        "observed_global_max_l2": 6.023091233803916,
+        "global_p": 0.9646070785842832,
+        "z_score": -1.1540671334768489,
+        "argmax_concept": "reinforcement_learning",
+        "argmax_year": 2008,
+        "target_concept": "attention_mechanism",
+        "argmax_is_target": false,
+        "n_perm": 5000,
+        "null_mean": 9.083562453074485,
+        "null_max": 38.74262793055992
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the companion manuscript. This record will be updated with its public publication URL when available."
+title: "Geometric Signatures of Conceptual Reorganization: A Counterfactual Embedding Framework for Detecting Scientific Revolutions"
+type: software
+authors:
+  - family-names: Ntounis
+    given-names: Dimitris
+  - family-names: Schwartzman
+    given-names: Ariel
+  - family-names: Chafe
+    given-names: Chris
+  - family-names: Ryckman
+    given-names: Thomas A.
+repository-code: "https://github.com/Mapping-Innovation-Lab/geometric-signatures-companion-website"
+url: "https://mapping-innovation-lab.github.io/geometric-signatures-companion-website/"
+preferred-citation:
+  type: unpublished
+  title: "Geometric Signatures of Conceptual Reorganization: A Counterfactual Embedding Framework for Detecting Scientific Revolutions"
+  authors:
+    - family-names: Ntounis
+      given-names: Dimitris
+    - family-names: Schwartzman
+      given-names: Ariel
+    - family-names: Chafe
+      given-names: Chris
+    - family-names: Ryckman
+      given-names: Thomas A.
+  year: 2026

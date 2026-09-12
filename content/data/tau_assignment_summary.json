@@ -1,0 +1,72 @@
+[
+  {
+    "case": "sr_signal_detection",
+    "label": "Special relativity",
+    "pivot": 1902,
+    "f_knee": 0.25,
+    "nn_sim": 0.9111631512641907,
+    "tau": 0.02220921218395233,
+    "nn_concept": "mechanics_time_measurement",
+    "n_papers": 16,
+    "max_abs_d": 7.6115368965175465,
+    "l2": 7.619846429394941,
+    "rank": 1,
+    "quantile": 0.6
+  },
+  {
+    "case": "higgs",
+    "label": "Higgs mechanism",
+    "pivot": 1959,
+    "f_knee": 0.3,
+    "nn_sim": 0.921454906463623,
+    "tau": 0.023563528060913084,
+    "nn_concept": "gauge_theories",
+    "n_papers": 108,
+    "max_abs_d": 14.568841911471571,
+    "l2": 14.927613321539011,
+    "rank": 1,
+    "quantile": 0.6
+  },
+  {
+    "case": "godel",
+    "label": "Godel incompleteness",
+    "pivot": 1937,
+    "f_knee": 0.1,
+    "nn_sim": 0.8981692790985107,
+    "tau": 0.010183072090148926,
+    "nn_concept": "axiomatic_set_theory",
+    "n_papers": 34,
+    "max_abs_d": 2.495533579304527,
+    "l2": 2.5443329575126716,
+    "rank": 1,
+    "quantile": 0.6
+  },
+  {
+    "case": "deep_learning",
+    "label": "Deep learning",
+    "pivot": 2011,
+    "f_knee": 0.12,
+    "nn_sim": 0.9272606372833252,
+    "tau": 0.008728723526000976,
+    "nn_concept": "generative_models",
+    "n_papers": 1408,
+    "max_abs_d": 3.1268117102101227,
+    "l2": 3.4880375928134177,
+    "rank": 1,
+    "quantile": 0.6
+  },
+  {
+    "case": "attention",
+    "label": "Attention mechanism",
+    "pivot": 2012,
+    "f_knee": 0.25,
+    "nn_sim": 0.8980567455291748,
+    "tau": 0.0254858136177063,
+    "nn_concept": "representation_learning",
+    "n_papers": 63,
+    "max_abs_d": 1.6401378730172,
+    "l2": 1.8701712787414904,
+    "rank": 4,
+    "quantile": 0.6
+  }
+]
