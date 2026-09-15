@@ -3,15 +3,14 @@ import { paperSnapshot } from "./paper-snapshot";
 export const SHORT_SITE_TITLE = "Geometric Signatures of Scientific Revolutions";
 export const FULL_PAPER_TITLE = paperSnapshot.manuscript.title;
 
-export const PAPER_REPOSITORY_URL =
-  "https://github.com/dntounis/mapping_innovation_latex";
+export const PAPER_URL = "https://arxiv.org/abs/2609.14917";
 
 export const ANALYSIS_REPOSITORY_URL =
   "https://github.com/Mapping-Innovation-Lab/geometric-signatures";
 
-// Replace each destination with an anonymously accessible release URL, then clear pending.
+// Public preprint and analysis release; no sign-in is required.
 export const publicationLinks = {
-  paper: { href: PAPER_REPOSITORY_URL, pending: true },
+  paper: { href: PAPER_URL, pending: false },
   analysis: { href: ANALYSIS_REPOSITORY_URL, pending: false },
 } as const;
 

@@ -40,8 +40,6 @@ jobs:
         run: npm run verify-static
       - name: Check publication readiness
         if: github.event_name == 'workflow_dispatch'
-        env:
-          ALLOW_PENDING_PUBLICATION_LINKS: "true"
         run: npm run verify-publication
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4

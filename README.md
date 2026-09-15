@@ -25,7 +25,7 @@ NEXT_PUBLIC_BASE_PATH=/geometric-signatures-companion-website npm run verify-sta
 npm run verify-publication
 ```
 
-The last check fails on unresolved licensing and, by default, on pending publication links. The deployment workflow carries an explicit temporary override for the red paper and code placeholders; remove it when final public URLs are available. Local figure downloads and navigation links already work.
+The last check fails on unresolved licensing or pending publication links. Both the [arXiv preprint](https://arxiv.org/abs/2609.14917) and analysis code are publicly accessible; deployment runs this check without a pending-link override.
 
 ## Publication
 
@@ -34,7 +34,7 @@ See [the publication checklist](docs/PUBLISHING.md) for GitHub Pages setup. A pu
 ## Source and structure
 
 - `content/paper-snapshot.ts`: manuscript version and sourced numeric records.
-- `content/site-copy.ts`: narrative, public URL, route metadata, and pending publication links.
+- `content/site-copy.ts`: narrative, public URL, route metadata, and publication links.
 - `content/supplementary.ts`: supplementary robustness figures and visibility.
 - `content/supplement/`: supplementary chapters, source readers, and concept-anchor parsing.
 - `public/supplementary/`: only figures and data selected for public delivery.
@@ -47,4 +47,4 @@ The Higgs response is an assignment artifact caused by pre-pivot sparsity and a 
 
 ## Citation and rights
 
-Use [CITATION.cff](CITATION.cff) for the current citation record. It does not assert a DOI or publication venue. Code is released under the [MIT License](LICENSE-CODE), while original website text and figures are released under [CC BY 4.0](LICENSE-CONTENT). The [dual-license notice](LICENSE) records the scope and exceptions; third-party font notices are distributed in `public/licenses/`.
+Use [CITATION.cff](CITATION.cff) to cite the preprint, [arXiv:2609.14917](https://arxiv.org/abs/2609.14917). Code is released under the [MIT License](LICENSE-CODE), while original website text and figures are released under [CC BY 4.0](LICENSE-CONTENT). The [dual-license notice](LICENSE) records the scope and exceptions; third-party font notices are distributed in `public/licenses/`.

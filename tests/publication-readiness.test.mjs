@@ -25,13 +25,12 @@ test("links to the public analysis release without a pending marker on every rou
   assert.equal(sourceLink.hasAttribute("data-publication-pending"), false);
 });
 
-test("marks unresolved external publication destinations without marking working internal links", () => {
+test("links to the arXiv preprint on every route without pending or private manuscript links", () => {
   for (const document of documents) {
-    const pending = [...document.querySelectorAll('a[data-publication-pending="true"]')];
-    for (const link of pending) {
-      assert.match(link.getAttribute("href"), /^https:\/\//);
-      assert.match(link.textContent, /link pending/i);
-    }
+    assert.ok(document.querySelector('a[href="https://arxiv.org/abs/2609.14917"]'));
+    assert.equal(document.querySelector('a[data-publication-pending="true"]'), null);
+    assert.equal(document.querySelector('a[href*="mapping_innovation_latex"]'), null);
+    assert.doesNotMatch(document.body.textContent, /link pending/i);
     for (const link of document.querySelectorAll('a[href^="/"], a[href^="#"]')) {
       assert.notEqual(link.dataset.publicationPending, "true");
     }

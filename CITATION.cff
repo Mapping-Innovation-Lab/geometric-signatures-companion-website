@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the companion manuscript. This record will be updated with its public publication URL when available."
+message: "Please cite the accompanying preprint, arXiv:2609.14917."
 title: "Geometric Signatures of Conceptual Reorganization: A Counterfactual Embedding Framework for Detecting Scientific Revolutions"
 type: software
 authors:
@@ -14,7 +14,7 @@ authors:
 repository-code: "https://github.com/Mapping-Innovation-Lab/geometric-signatures-companion-website"
 url: "https://mapping-innovation-lab.github.io/geometric-signatures-companion-website/"
 preferred-citation:
-  type: unpublished
+  type: article
   title: "Geometric Signatures of Conceptual Reorganization: A Counterfactual Embedding Framework for Detecting Scientific Revolutions"
   authors:
     - family-names: Ntounis
@@ -26,3 +26,6 @@ preferred-citation:
     - family-names: Ryckman
       given-names: Thomas A.
   year: 2026
+  date-published: 2026-09-14
+  url: "https://arxiv.org/abs/2609.14917"
+  notes: "arXiv:2609.14917 [cs.DL]. Preprint."

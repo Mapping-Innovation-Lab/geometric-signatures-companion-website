@@ -188,7 +188,7 @@ test("does not link to the deleted paper-duplicating routes", () => {
   }
 
   assert.ok(document.querySelector('a[href="#supplementary"]'));
-  assert.ok(document.querySelector('a[href="https://github.com/dntounis/mapping_innovation_latex"]'));
+  assert.ok(document.querySelector('a[href="https://arxiv.org/abs/2609.14917"]'));
 });
 
 test("retains shared provenance and keyboard navigation landmarks", () => {

@@ -28,9 +28,9 @@ Do not deploy this configuration while the remote repository is still named
 
 ## Resolve release reminders
 
-1. The initial public version deliberately retains red paper and code placeholders. The deployment workflow acknowledges these through `ALLOW_PENDING_PUBLICATION_LINKS`; the local command still blocks them by default. When final URLs exist, replace the destinations in `content/site-copy.ts`, test them without signing in, set each `pending` value to `false`, and remove the workflow override.
+1. Paper links now point to [arXiv:2609.14917](https://arxiv.org/abs/2609.14917), and analysis links point to the public code repository. Both destinations in `content/site-copy.ts` have `pending: false`. The deployment workflow runs the publication check without an override; verify any future replacement URL without signing in.
 2. The website code is licensed under MIT; original website text and figures are licensed under CC BY 4.0. The root `LICENSE` records the scope and exceptions. Do not replace third-party notices or imply that underlying datasets are covered.
-3. Add the paper URL, DOI, and publication details to `CITATION.cff` when available. Do not invent those fields in advance.
+3. `CITATION.cff` records the preprint URL, identifier, and September 14, 2026 submission date. Update it when publication details change; do not invent a journal publication or acceptance status.
 4. Run the verification commands in the root README. `npm run verify-publication` must pass before deployment.
 
 ## Enable GitHub Pages
@@ -41,7 +41,7 @@ Do not deploy this configuration while the remote repository is still named
 4. Open **Actions → Deploy GitHub Pages → Run workflow**, select `main`, and run it. The manual run checks release reminders, builds, and deploys the `out/` artifact.
 5. After the deployment succeeds, open `https://mapping-innovation-lab.github.io/geometric-signatures-companion-website/` without signing in. Test the paper link, code link, unified supplement, nested concept-reference page, source downloads, mobile menu, and an invalid URL.
 
-If the manual run stops at “Check publication readiness,” inspect the reported license or export problem and push a correction. Pending-link warnings are expected for the initial release. If it stops at “Configure Pages,” check the repository's Pages source and plan eligibility.
+If the manual run stops at “Check publication readiness,” inspect the reported license, pending-link, or export problem and push a correction. If it stops at “Configure Pages,” check the repository's Pages source and plan eligibility.
 
 ## What is exposed
 
